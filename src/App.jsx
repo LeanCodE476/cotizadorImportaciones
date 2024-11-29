@@ -45,7 +45,7 @@ function App() {
         envioPorUnidad = pesoUnitarioGramos / 1000 * 65;
         break;
       case "Economy":
-        envioPorUnidad = pesoUnitarioGramos / 1000 * 50;
+        envioPorUnidad = pesoUnitarioGramos / 1000 * 55;
         break;
       default:
         break;
