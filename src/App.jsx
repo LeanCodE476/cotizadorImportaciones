@@ -140,9 +140,8 @@ function App() {
           value={tipoEnvio}
           onChange={handleTipoEnvioChange}
         >
-          <MenuItem value="Regular">Regular ( $60 USD)</MenuItem>
-          <MenuItem value="Express">Express ( $65 USD)</MenuItem>
-          <MenuItem value="Economy">Economy ( $50 USD)</MenuItem>
+   
+          <MenuItem value="Economy">Economy ( $55 USD)</MenuItem>
         </TextField>
 
         <Button variant="contained" onClick={calcularPrecio}>
