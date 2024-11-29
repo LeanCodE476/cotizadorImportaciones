@@ -99,14 +99,7 @@ function App() {
         >
           Cotizador de Importaciones
         </Typography>
-        <TextField
-          id="nombreProducto"
-          label="Nombre del Producto"
-          variant="outlined"
-          color="secondary"
-          value={nombreProducto}
-          onChange={(e) => setNombreProducto(e.target.value)}
-        />
+    
         <TextField
           id="precioUnitario"
           label="Precio Unitario ($)"
@@ -149,7 +142,7 @@ function App() {
         </Button>
         {precioTotal !== 0 && (
           <Box>
-            <Typography fontWeight={'bold'} mt={'1rem'} textTransform={'capitalize'}>Nombre de producto: {nombreProducto}</Typography>
+           
             <Typography fontWeight={'bold'} mt={'1rem'}>
               Precio Unitario <span style={{ color: 'blue' }}>SIN ENVIO</span> en Pesos: <span style={{color:'red'}}>{formatCurrency(precioUnitarioPesos)}</span> 
             </Typography>
